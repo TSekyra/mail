@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappecz\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-05-28 11:53+0553\n"
-"PO-Revision-Date: 2025-05-30 08:34\n"
+"PO-Revision-Date: 2025-05-30 10:40\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\n"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: frontend/src/components/Modals/EditAliasModal.vue:71
 msgid "Alias saved successfully"
-msgstr ""
+msgstr "Alias byl úspěšně uložen"
 
 #: frontend/src/pages/dashboard/MailAliasesView.vue:3
 msgid "Aliases"
@@ -564,15 +564,15 @@ msgstr ""
 #. Option for the 'Type' (Select) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Azure Blob Storage"
-msgstr ""
+msgstr "Úložiště objektů Azure Blob"
 
 #: mail/api/mail.py:504
 msgid "BCC"
-msgstr ""
+msgstr "BCC"
 
 #: frontend/src/pages/SignupView.vue:87
 msgid "Back"
-msgstr ""
+msgstr "Zpět"
 
 #. Label of the backend_name (Dynamic Link) field in DocType 'Mail Backend
 #. Request'
@@ -583,7 +583,7 @@ msgstr ""
 #. Label of the backend_type (Select) field in DocType 'Mail Backend Request'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 msgid "Backend Type"
-msgstr ""
+msgstr "Typ backendu"
 
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.py:48
 msgid "Backend Type and Backend Name are required."
