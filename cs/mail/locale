@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappecz\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-05-28 11:53+0553\n"
-"PO-Revision-Date: 2025-05-30 10:40\n"
+"PO-Revision-Date: 2025-05-30 13:22\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\n"
@@ -21,31 +21,31 @@ msgstr ""
 #. Label of the save_as_draft (Check) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid " Save as Draft"
-msgstr ""
+msgstr " Uložit jako koncept"
 
 #: mail/api/mail.py:507
 msgid "'Fail'"
-msgstr ""
+msgstr "Neuspěl"
 
 #: mail/api/mail.py:507
 msgid "'Pass'"
-msgstr ""
+msgstr "Prošel"
 
 #: frontend/src/components/MailListItem.vue:61
 msgid "+{0} more"
-msgstr ""
+msgstr "+{0} více"
 
 #: mail/mail/doctype/spam_check_log/spam_check_log.py:161
 msgid "1. Ensure the correct IP address is allowed to connect to SpamAssassin."
-msgstr ""
+msgstr "1. Ujistěte se, že správná IP adresa má povolení připojit se k SpamAssassin."
 
 #: mail/mail/doctype/spam_check_log/spam_check_log.py:162
 msgid "2. Verify that the SpamAssassin service is running and accepting connections on port {0}."
-msgstr ""
+msgstr "2. Ověřte, že služba SpamAssassin běží a přijímá připojení na portu {0}."
 
 #: mail/mail/doctype/spam_check_log/spam_check_log.py:165
 msgid "3. Review SpamAssassin logs for any unauthorized connection attempts or permission errors."
-msgstr ""
+msgstr "3. Zkontrolujte protokoly SpamAssassin na neautorizované pokusy o připojení nebo chyby oprávnění."
 
 #. Description of the 'Delivery Mode' (Select) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
@@ -63,57 +63,57 @@ msgstr "<pre><b>Okamžitě</b> — odešlete hned po vložení (after_insert).\n
 #: mail/mail/doctype/dns_record/dns_record.json
 #: mail/mail/doctype/mail_domain_dns_record/mail_domain_dns_record.json
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #. Description of the 'Key Prefix' (Data) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "A prefix that will be added to the keys of all objects stored in the blob store."
-msgstr ""
+msgstr "Předpona, která bude přidána k klíčům všech objektů uložených v blob úložišti."
 
 #. Option for the 'Type' (Select) field in DocType 'DNS Record'
 #. Option for the 'Type' (Select) field in DocType 'Mail Domain DNS Record'
 #: mail/mail/doctype/dns_record/dns_record.json
 #: mail/mail/doctype/mail_domain_dns_record/mail_domain_dns_record.json
 msgid "AAAA"
-msgstr ""
+msgstr "AAAA"
 
 #. Label of the acme_providers (Table) field in DocType 'Mail Server'
 #: mail/mail/doctype/mail_server/mail_server.json
 msgid "ACME Providers"
-msgstr ""
+msgstr "Poskytovatelé ACME"
 
 #. Label of the via_api (Check) field in DocType 'Outgoing Mail'
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 #: mail/mail/report/outbound_delay/outbound_delay.py:51
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.py:60
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: frontend/src/components/Settings/AdvancedSettings.vue:2
 #: frontend/src/components/Settings/AdvancedSettings.vue:12
 msgid "API Access"
-msgstr ""
+msgstr "API přístup"
 
 #. Label of the api_key (Password) field in DocType 'Mail Cluster'
 #: frontend/src/components/Settings/AdvancedSettings.vue:3
 #: frontend/src/components/Settings/AdvancedSettings.vue:17
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "API Key"
-msgstr ""
+msgstr "API klíč"
 
 #: mail/backend.py:60
 msgid "API Key or Username and Password is required."
-msgstr ""
+msgstr "Je vyžadován API klíč nebo uživatelské jméno a heslo."
 
 #: frontend/src/components/Settings/AdvancedSettings.vue:18
 msgid "API Secret"
-msgstr ""
+msgstr "API tajný klíč"
 
 #. Option for the 'Status' (Select) field in DocType 'Outgoing Mail'
 #: frontend/src/pages/dashboard/InvitesView.vue:195
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Accepted"
-msgstr ""
+msgstr "Přijato"
 
 #. Label of the azure_access_key (Password) field in DocType 'Mail Server
 #. Store'
@@ -122,17 +122,17 @@ msgstr ""
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Access Key"
-msgstr ""
+msgstr "Přístupový klíč"
 
 #. Label of the dns_provider_access_secret (Password) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Access Secret"
-msgstr ""
+msgstr "Tajný přístup"
 
 #: mail/utils/rate_limiter.py:28
 msgid "Access denied: Your IP address ({0}) is blocked due to explicit IP restrictions."
-msgstr ""
+msgstr "Přístup odepřen: Vaše IP adresa ({0}) je blokována kvůli explicitním omezením IP."
 
 #. Label of the account (Link) field in DocType 'Email Message'
 #. Label of the account (Link) field in DocType 'JMAP Push Subscription'
@@ -156,46 +156,46 @@ msgstr "Účet"
 
 #: mail/mail/doctype/email_message/email_message.py:239
 msgid "Account and blob ID are required."
-msgstr ""
+msgstr "Je vyžadován účet a blob ID."
 
 #: mail/mail/doctype/email_message/email_message.py:211
 #: mail/mail/doctype/email_message/email_message.py:266
 msgid "Account and message IDs are required."
-msgstr ""
+msgstr "Účet a ID zpráv jsou vyžadovány."
 
 #: mail/mail/doctype/email_message/email_message.py:127
 msgid "Account and thread ID are required."
-msgstr ""
+msgstr "Účet a ID vlákna jsou vyžadovány."
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.py:132
 msgid "Account domain {0} does not match with domain {1}."
-msgstr ""
+msgstr "Doména účtu {0} se neshoduje s doménou {1}."
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.py:206
 msgid "Account is already verified and created."
-msgstr ""
+msgstr "Účet je již ověřen a vytvořen."
 
 #: mail/mail/doctype/mail_queue/mail_queue.py:252
 msgid "Account is required."
-msgstr ""
+msgstr "Je vyžadován účet."
 
 #: frontend/src/components/Modals/MailAccountModal.vue:60
 #: frontend/src/components/Settings/AccountSettings.vue:78
 msgid "Account settings saved successfully"
-msgstr ""
+msgstr "Nastavení účtu bylo úspěšně uloženo"
 
 #. Description of the 'Username' (Data) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Account username for the DNS provider."
-msgstr ""
+msgstr "Uživatelské jméno účtu pro poskytovatele DNS."
 
 #: mail/mail/doctype/email_message/email_message.py:1022
 msgid "Account {0} already synced. Use <code>fetch_changes</code> to update."
-msgstr ""
+msgstr "Účet {0} již byl synchronizován. Použijte <code>fetch_changes</code> pro aktualizaci."
 
 #: mail/mail/doctype/email_message/email_message.py:156
 msgid "Account, message IDs, and mailbox ID/role/name are required."
-msgstr ""
+msgstr "Je vyžadováno ID účtu, ID zprávy a poštovní schránka/role/jméno."
 
 #: mail/mail/doctype/dns_record/dns_record.js:16
 #: mail/mail/doctype/dns_record/dns_record.js:25
@@ -224,87 +224,87 @@ msgstr ""
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.js:75
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.js:82
 msgid "Actions"
-msgstr ""
+msgstr "Akce"
 
 #. Option for the 'Status' (Select) field in DocType 'JMAP Push Subscription'
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.json
 msgid "Active"
-msgstr ""
+msgstr "Aktivní"
 
 #: frontend/src/pages/dashboard/MailAliasesView.vue:4
 msgid "Add Alias"
-msgstr ""
+msgstr "Přidat alias"
 
 #: frontend/src/components/Modals/AddDomainModal.vue:5
 #: frontend/src/pages/dashboard/DomainsView.vue:4
 msgid "Add Domain"
-msgstr ""
+msgstr "Přidat doménu"
 
 #: frontend/src/pages/dashboard/MailGroupsView.vue:4
 msgid "Add Group"
-msgstr ""
+msgstr "Přidat skupinu"
 
 #: frontend/src/components/Modals/AddGroupMembersModal.vue:5
 #: frontend/src/pages/dashboard/MailGroupView.vue:221
 msgid "Add Groups"
-msgstr ""
+msgstr "Přidat skupiny"
 
 #: frontend/src/components/Modals/AddMemberModal.vue:5
 #: frontend/src/pages/dashboard/MembersView.vue:4
 msgid "Add Member"
-msgstr ""
+msgstr "Přidat člena"
 
 #: frontend/src/components/Modals/AddGroupMembersModal.vue:5
 #: frontend/src/pages/dashboard/MailGroupView.vue:213
 msgid "Add Members"
-msgstr ""
+msgstr "Přidat členy"
 
 #: frontend/src/pages/dashboard/DomainView.vue:234
 msgid "Add the following records to your domain's DNS settings. Then click on 'Verify' to complete your domain setup."
-msgstr ""
+msgstr "Přidejte následující záznamy do DNS nastavení vaší domény. Pak klikněte na 'Ověřit', abyste dokončili nastavení vaší domény."
 
 #: frontend/src/components/UserDropdown.vue:95
 msgid "Admin Dashboard"
-msgstr ""
+msgstr "Admin Dashboard"
 
 #: frontend/src/components/Modals/SettingsModal.vue:60
 msgid "Advanced"
-msgstr ""
+msgstr "Pokročilé"
 
 #. Label of the cluster_advertise_addr (Select) field in DocType 'Mail Server'
 #: mail/mail/doctype/mail_server/mail_server.json
 msgid "Advertise Address"
-msgstr ""
+msgstr "Inzerovat adresu"
 
 #. Description of the 'Compression' (Select) field in DocType 'Mail Server
 #. Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Algorithm to use to compress large binary objects."
-msgstr ""
+msgstr "Algoritmus pro kompresi velkých binárních objektů."
 
 #: frontend/src/pages/dashboard/MailAliasesView.vue:163
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 #: frontend/src/components/Modals/AddAliasModal.vue:41
 #: frontend/src/components/Modals/EditAliasModal.vue:25
 #: frontend/src/pages/dashboard/MailAliasesView.vue:164
 msgid "Alias For"
-msgstr ""
+msgstr "Alias pro"
 
 #. Label of the alias_for_name (Dynamic Link) field in DocType 'Mail Alias'
 #: mail/mail/doctype/mail_alias/mail_alias.json
 msgid "Alias For (Name)"
-msgstr ""
+msgstr "Alias pro (jméno)"
 
 #. Label of the alias_for_type (Select) field in DocType 'Mail Alias'
 #: mail/mail/doctype/mail_alias/mail_alias.json
 msgid "Alias For (Type)"
-msgstr ""
+msgstr "Alias pro (Typ)"
 
 #: frontend/src/components/Modals/AddAliasModal.vue:90
 msgid "Alias created successfully"
-msgstr ""
+msgstr "Alias byl úspěšně vytvořen"
 
 #: frontend/src/components/Modals/EditAliasModal.vue:71
 msgid "Alias saved successfully"
@@ -312,193 +312,193 @@ msgstr "Alias byl úspěšně uložen"
 
 #: frontend/src/pages/dashboard/MailAliasesView.vue:3
 msgid "Aliases"
-msgstr ""
+msgstr "Aliasy"
 
 #: frontend/src/pages/dashboard/MailAliasesView.vue:147
 msgid "Aliases deleted successfully."
-msgstr ""
+msgstr "Aliasy úspěšně smazány."
 
 #: frontend/src/pages/MailFolderView.vue:34
 msgid "All Mail"
-msgstr ""
+msgstr "Všechny zprávy"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:899
 msgid "All recipients are blocked or sent."
-msgstr ""
+msgstr "Všichni příjemci jsou zablokováni nebo odesláni."
 
 #. Label of the allow_business_signup (Check) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Allow Business Signup"
-msgstr ""
+msgstr "Povolit registraci firmy"
 
 #. Label of the tls_allow_invalid_certs (Check) field in DocType 'Mail Server
 #. Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Allow Invalid Certs"
-msgstr ""
+msgstr "Povolit neplatné certifikáty"
 
 #. Label of the allow_personal_signup (Check) field in DocType 'Mail Settings'
 #. Label of the allow_personal_signup (Check) field in DocType 'Mail Tenant'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 #: mail/mail/doctype/mail_tenant/mail_tenant.json
 msgid "Allow Personal Signup"
-msgstr ""
+msgstr "Povolit osobní registraci"
 
 #. Description of the 'Allow Invalid Certs' (Check) field in DocType 'Mail
 #. Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Allow invalid TLS certificates when connecting to the store."
-msgstr ""
+msgstr "Povolit neplatné TLS certifikáty při připojení k obchodu."
 
 #. Description of the 'Enable encryption at rest' (Check) field in DocType
 #. 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Allow users to configure encryption at rest for their data."
-msgstr ""
+msgstr "Povolit uživatelům konfigurovat šifrování v klidu pro jejich data."
 
 #. Name of a DocType
 #: mail/mail/doctype/allowed_ip/allowed_ip.json
 msgid "Allowed IP"
-msgstr ""
+msgstr "Povolená IP"
 
 #: mail/mail/doctype/allowed_ip/allowed_ip.py:41
 msgid "Allowed IP removed successfully."
-msgstr ""
+msgstr "Povolená IP byla úspěšně odstraněna."
 
 #. Label of the allowed_ips (Small Text) field in DocType 'Rate Limit'
 #: mail/mail/doctype/rate_limit/rate_limit.json
 msgid "Allowed IPs"
-msgstr ""
+msgstr "Povolené IP adresy"
 
 #. Description of the 'Allow Business Signup' (Check) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Allows users to sign up as a business and creates a tenant."
-msgstr ""
+msgstr "Umožňuje uživatelům zaregistrovat se jako podnik a vytvořit nájemce."
 
 #. Description of the 'Allow Personal Signup' (Check) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Allows users to sign up for personal use and select a preferred username."
-msgstr ""
+msgstr "Umožňuje uživatelům se registrovat pro osobní použití a vybrat si preferované uživatelské jméno."
 
 #: frontend/src/pages/BusinessSignupView.vue:61
 #: frontend/src/pages/SignupView.vue:93
 msgid "Already have an account? Log in."
-msgstr ""
+msgstr "Již máte účet? Přihlaste se."
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "AmazonRoute53"
-msgstr ""
+msgstr "AmazonRoute53"
 
 #. Label of the amended_from (Link) field in DocType 'Incoming Mail'
 #. Label of the amended_from (Link) field in DocType 'Outgoing Mail'
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Amended From"
-msgstr ""
+msgstr "Změněno z"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:141
 msgid "Amending {0} is not allowed."
-msgstr ""
+msgstr "Změna {0} není povolena."
 
 #. Label of the answered (Check) field in DocType 'Email Message'
 #: mail/mail/doctype/email_message/email_message.json
 msgid "Answered"
-msgstr ""
+msgstr "Odpovězeno"
 
 #: frontend/src/components/AppsMenu.vue:11
 msgid "Apps"
-msgstr ""
+msgstr "Aplikace"
 
 #: frontend/src/pages/dashboard/MailAliasesView.vue:158
 msgid "Are you sure you want to delete the selected aliases?"
-msgstr ""
+msgstr "Jste si jisti, že chcete smazat vybrané aliasy?"
 
 #: frontend/src/pages/dashboard/MailGroupsView.vue:134
 msgid "Are you sure you want to delete the selected groups?"
-msgstr ""
+msgstr "Jste si jisti, že chcete smazat vybrané skupiny?"
 
 #: frontend/src/pages/dashboard/InvitesView.vue:167
 msgid "Are you sure you want to delete the selected invites? This will invalidate them for the recipients if pending."
-msgstr ""
+msgstr "Opravdu chcete smazat vybrané pozvánky? To je zneplatní pro příjemce, pokud jsou ve stavu čekání."
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.js:48
 msgid "Are you sure you want to destroy all subscriptions?"
-msgstr ""
+msgstr "Jste si jisti, že chcete odstranit všechny odběry?"
 
 #: mail/mail/doctype/email_message/email_message.js:68
 msgid "Are you sure you want to destroy this email?"
-msgstr ""
+msgstr "Jste si jisti, že chcete odstranit tento email?"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.js:61
 msgid "Are you sure you want to force transfer this email to the server? It may cause duplicate emails to be sent."
-msgstr ""
+msgstr "Jste si jisti, že chcete vynutit převod tohoto e-mailu na server? To může způsobit odeslání duplicitních e-mailů."
 
 #: mail/mail/doctype/mail_domain/mail_domain.js:58
 msgid "Are you sure you want to refresh the DNS records? If there are any changes, you'll need to update the DNS settings with your DNS provider accordingly."
-msgstr ""
+msgstr "Jste si jisti, že chcete aktualizovat DNS záznamy? Pokud dojde k nějakým změnám, budete muset změnit nastavení DNS s poskytovatelem DNS."
 
 #: frontend/src/pages/dashboard/MailGroupView.vue:190
 msgid "Are you sure you want to remove the selected members from this group?"
-msgstr ""
+msgstr "Opravdu chcete odebrat vybrané členy z této skupiny?"
 
 #: mail/mail/doctype/mail_domain/mail_domain.js:71
 msgid "Are you sure you want to rotate the DKIM keys? This will generate new keys for email signing and may take up to 10 minutes to propagate across DNS servers. Emails sent during this period may fail DKIM verification."
-msgstr ""
+msgstr "Jste si jisti, že chcete změnit DKIM klíče? To vygeneruje nové klíče pro podepisování e-mailů a může trvat až 10 minut než se šíří napříč servery DNS. E-maily zaslané během tohoto období nemusí ověřit DKIM."
 
 #: frontend/src/pages/dashboard/InvitesView.vue:174
 msgid "Assigned Email"
-msgstr ""
+msgstr "Přiřazený E-mail"
 
 #: frontend/src/pages/dashboard/InvitesView.vue:10
 #: frontend/src/pages/dashboard/InvitesView.vue:176
 msgid "Assigned Role"
-msgstr ""
+msgstr "Přiřazená role"
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.py:128
 msgid "Assigned email and backup email cannot be the same."
-msgstr ""
+msgstr "Přiřazený e-mail a záložní e-mail nemohou být stejné."
 
 #: mail/mail/doctype/mail_cluster/mail_cluster.py:128
 msgid "At least one public cluster must be enabled. This cluster has been made public."
-msgstr ""
+msgstr "Nejméně jeden veřejný cluster musí být povolen. Tento cluster byl zveřejněn."
 
 #. Label of the attached_to_docname (Dynamic Link) field in DocType 'DNS
 #. Record'
 #: mail/mail/doctype/dns_record/dns_record.json
 msgid "Attached To DocName"
-msgstr ""
+msgstr "Připojeno k DocName"
 
 #. Label of the attached_to_doctype (Select) field in DocType 'DNS Record'
 #: mail/mail/doctype/dns_record/dns_record.json
 msgid "Attached To DocType"
-msgstr ""
+msgstr "Připojeno k DocType"
 
 #. Label of the attachment_section (Section Break) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Attachment"
-msgstr ""
+msgstr "Příloha"
 
 #. Label of the jmap_email_max_attachment_size (Int) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Attachment Size (Bytes)"
-msgstr ""
+msgstr "Velikost přílohy (bajty)"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:356
 msgid "Attachment limit exceeded ({0}). Maximum {1} attachment(s) allowed."
-msgstr ""
+msgstr "Překročený limit příloh ({0}). Maximálně {1} příloha(y) povoleno."
 
 #: mail/mail/doctype/email_message/email_message.py:668
 msgid "Attachment not found."
-msgstr ""
+msgstr "Příloha nebyla nalezena."
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:367 mail/overrides.py:31
 msgid "Attachment size limit exceeded ({0} MB). Maximum {1} MB allowed."
-msgstr ""
+msgstr "Limit velikosti přílohy byl překročen ({0} MB). Maximálně {1} MB je povoleno."
 
 #. Label of the attachments (Table) field in DocType 'Email Message'
 #. Label of the section_break_oulc (Section Break) field in DocType 'Email
@@ -509,32 +509,32 @@ msgstr ""
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Attachments"
-msgstr ""
+msgstr "Přílohy"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:376
 msgid "Attachments size limit exceeded ({0} MB). Maximum {1} MB allowed."
-msgstr ""
+msgstr "Limit velikosti příloh překročen ({0} MB). Maximálně {1} MB povoleno."
 
 #. Label of the jmap_push_attempts_interval (Int) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Attempt Interval (Milliseconds)"
-msgstr ""
+msgstr "Interval pokusu (milisekundy)"
 
 #. Label of the auth_results (JSON) field in DocType 'DMARC Report Detail'
 #: mail/mail/doctype/dmarc_report_detail/dmarc_report_detail.json
 msgid "Auth Results"
-msgstr ""
+msgstr "Výsledky ověření"
 
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.py:46
 msgid "Auth Type"
-msgstr ""
+msgstr "Typ ověření"
 
 #. Label of the imap_authenticated_timeout (Int) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Authenticated Session Timeout (Seconds)"
-msgstr ""
+msgstr "Časový limit ověření relace (v sekundách)"
 
 #. Label of the authentication_section (Section Break) field in DocType 'Mail
 #. Cluster'
@@ -543,23 +543,23 @@ msgstr ""
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Authentication"
-msgstr ""
+msgstr "Ověření"
 
 #: mail/mail/report/outbound_delay/outbound_delay.py:262
 msgid "Avg. Message Size"
-msgstr ""
+msgstr "Prům. velikost zprávy"
 
 #: mail/mail/report/outbound_delay/outbound_delay.py:274
 msgid "Avg. Processing Delay"
-msgstr ""
+msgstr "Průměrný čas zpracování"
 
 #: mail/mail/report/outbound_delay/outbound_delay.py:268
 msgid "Avg. Submission Delay"
-msgstr ""
+msgstr "Průměrné zpoždění odeslání"
 
 #: mail/mail/report/outbound_delay/outbound_delay.py:280
 msgid "Avg. Transfer Duration"
-msgstr ""
+msgstr "Průměrná doba přenosu"
 
 #. Option for the 'Type' (Select) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
@@ -578,12 +578,12 @@ msgstr "Zpět"
 #. Request'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 msgid "Backend Name"
-msgstr ""
+msgstr "Název backendu"
 
 #. Label of the backend_type (Select) field in DocType 'Mail Backend Request'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 msgid "Backend Type"
-msgstr "Typ backendu"
+msgstr "Backend Type"
 
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.py:48
 msgid "Backend Type and Backend Name are required."
@@ -596,35 +596,35 @@ msgstr ""
 #: frontend/src/pages/dashboard/InvitesView.vue:175
 #: mail/mail/doctype/mail_account/mail_account.json
 msgid "Backup Email"
-msgstr ""
+msgstr "Záložní e-mail"
 
 #: mail/mail/doctype/mail_account/mail_account.py:190
 msgid "Backup Email cannot be among the email addresses assigned to the user."
-msgstr ""
+msgstr "Záložní e-mail nemůže být mezi e-mailovými adresami přiřazenými uživateli."
 
 #: mail/mail/doctype/mail_account/mail_account.py:188
 msgid "Backup Email cannot be the same as the email address of the account."
-msgstr ""
+msgstr "Záložní e-mail se nemůže shodovat s e-mailovou adresou účtu."
 
 #: mail/utils/validation.py:206
 msgid "Bad Cron Expression"
-msgstr ""
+msgstr "Špatný Cron výraz"
 
 #. Label of the base_url (Data) field in DocType 'Mail Cluster'
 #. Label of the base_url (Data) field in DocType 'Mail Server'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 #: mail/mail/doctype/mail_server/mail_server.json
 msgid "Base URL"
-msgstr ""
+msgstr "Základní URL"
 
 #: mail/mail/doctype/mail_cluster/mail_cluster.py:276
 msgid "Base URL is required."
-msgstr ""
+msgstr "Je vyžadována základní adresa URL"
 
 #. Option for the 'Delivery Mode' (Select) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Batch"
-msgstr ""
+msgstr "Dávka"
 
 #. Option for the 'Type' (Select) field in DocType 'Email Message Recipient'
 #. Option for the 'Type' (Select) field in DocType 'Mail Recipient'
@@ -633,32 +633,32 @@ msgstr ""
 #: mail/mail/doctype/email_message_recipient/email_message_recipient.json
 #: mail/mail/doctype/mail_recipient/mail_recipient.json
 msgid "Bcc"
-msgstr ""
+msgstr "Bcc"
 
 #: frontend/src/components/MailDetailsPopover.vue:56
 #: frontend/src/components/MailThread.vue:74
 msgid "Bcc: "
-msgstr ""
+msgstr "Bcc: "
 
 #. Label of the cluster_bind_addr (Data) field in DocType 'Mail Server'
 #: mail/mail/doctype/mail_server/mail_server.json
 msgid "Bind Address"
-msgstr ""
+msgstr "Připojit adresu"
 
 #. Label of the bind (Small Text) field in DocType 'Mail Server Listener'
 #: mail/mail/doctype/mail_server_listener/mail_server_listener.json
 msgid "Bind Addresses"
-msgstr ""
+msgstr "Připojit adresy"
 
 #. Label of the cluster_bind_port (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Bind Port"
-msgstr ""
+msgstr "Přidružit port"
 
 #. Label of the blob_hash (Data) field in DocType 'Message Queue'
 #: mail/mail/doctype/message_queue/message_queue.json
 msgid "Blob Hash"
-msgstr ""
+msgstr "Hash blobu"
 
 #. Label of the blob_id (Data) field in DocType 'Email Message'
 #. Label of the blob_id (Data) field in DocType 'Email Message Part'
@@ -667,24 +667,24 @@ msgstr ""
 #: mail/mail/doctype/email_message_part/email_message_part.json
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Blob ID"
-msgstr ""
+msgstr "Blob ID"
 
 #. Label of the blob_storage_section (Section Break) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 #: mail/mail/doctype/mail_cluster/mail_cluster.py:340
 msgid "Blob Storage"
-msgstr ""
+msgstr "Blob úložiště"
 
 #. Label of the spamd_outbound_block (Check) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Block Spam"
-msgstr ""
+msgstr "Blokovat spam"
 
 #. Description of the 'Block Spam' (Check) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Block emails identified as spam from being sent."
-msgstr ""
+msgstr "Blokování e-mailů identifikovaných jako spam z odesílání."
 
 #. Option for the 'Status' (Select) field in DocType 'Mail Recipient'
 #. Option for the 'Status' (Select) field in DocType 'Outgoing Mail'
@@ -693,26 +693,26 @@ msgstr ""
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.py:284
 msgid "Blocked"
-msgstr ""
+msgstr "Blokováno"
 
 #. Name of a DocType
 #: mail/mail/doctype/blocked_ip/blocked_ip.json
 msgid "Blocked IP"
-msgstr ""
+msgstr "Blokované IP"
 
 #: mail/mail/doctype/blocked_ip/blocked_ip.py:41
 msgid "Blocked IP removed successfully."
-msgstr ""
+msgstr "Blokovaná IP byla úspěšně odstraněna."
 
 #. Label of the blocked_ips (Small Text) field in DocType 'Rate Limit'
 #: mail/mail/doctype/rate_limit/rate_limit.json
 msgid "Blocked IPs"
-msgstr ""
+msgstr "Blokované IP adresy"
 
 #. Label of the blocked_until (Datetime) field in DocType 'Bounce History'
 #: mail/mail/doctype/bounce_history/bounce_history.json
 msgid "Blocked Until"
-msgstr ""
+msgstr "Zablokováno do"
 
 #. Label of the section_break_yjrj (Section Break) field in DocType 'Email
 #. Message'
@@ -726,126 +726,126 @@ msgstr ""
 #: mail/mail/doctype/mail_queue/mail_queue.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Body"
-msgstr ""
+msgstr "Tělo zprávy"
 
 #. Label of the body_html (HTML Editor) field in DocType 'Incoming Mail'
 #. Label of the body_html (HTML Editor) field in DocType 'Outgoing Mail'
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Body HTML"
-msgstr ""
+msgstr "Tělo HTML"
 
 #. Label of the body_parts_section (Section Break) field in DocType 'Email
 #. Message'
 #: mail/mail/doctype/email_message/email_message.json
 msgid "Body Parts"
-msgstr ""
+msgstr "Části těla"
 
 #. Label of the body_plain (Code) field in DocType 'Incoming Mail'
 #. Label of the body_plain (Code) field in DocType 'Outgoing Mail'
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Body Plain"
-msgstr ""
+msgstr "Tělo bez formátování"
 
 #. Label of the bounce_count (Int) field in DocType 'Bounce History'
 #: mail/mail/doctype/bounce_history/bounce_history.json
 msgid "Bounce Count"
-msgstr ""
+msgstr "Počet skoků"
 
 #. Name of a DocType
 #: mail/mail/doctype/bounce_history/bounce_history.json
 msgid "Bounce History"
-msgstr ""
+msgstr "Historie odrazů"
 
 #. Label of the bucket (Data) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Bucket"
-msgstr ""
+msgstr "Bucket"
 
 #. Label of the bucket_storage_account_section (Section Break) field in DocType
 #. 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Bucket / Storage Account"
-msgstr ""
+msgstr "Bucket / Účet pro úložiště"
 
 #: frontend/src/pages/SignupView.vue:10
 msgid "Business (For work or company use)"
-msgstr ""
+msgstr "Podnikání (Pro pracovní nebo firemní použití)"
 
 #: mail/api/account.py:57
 msgid "Business signup is disabled."
-msgstr ""
+msgstr "Registrace firmy je zakázána."
 
 #: mail/api/mail.py:500
 msgid "CC"
-msgstr ""
+msgstr "CC"
 
 #. Option for the 'Type' (Select) field in DocType 'DNS Record'
 #. Option for the 'Type' (Select) field in DocType 'Mail Domain DNS Record'
 #: mail/mail/doctype/dns_record/dns_record.json
 #: mail/mail/doctype/mail_domain_dns_record/mail_domain_dns_record.json
 msgid "CNAME"
-msgstr ""
+msgstr "CNAME"
 
 #: mail/mail/doctype/message_queue/message_queue.js:30
 #: mail/mail/doctype/message_queue/message_queue.js:103
 msgid "Cancel Delivery"
-msgstr ""
+msgstr "Zrušit doručení"
 
 #. Option for the 'Status' (Select) field in DocType 'Incoming Mail'
 #. Option for the 'Status' (Select) field in DocType 'Outgoing Mail'
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Cancelled"
-msgstr ""
+msgstr "Zrušeno"
 
 #: mail/mail/doctype/message_queue/message_queue.js:117
 msgid "Cancelling Delivery..."
-msgstr ""
+msgstr "Ruší se doručování..."
 
 #: mail/overrides.py:18
 msgid "Cannot attach file to a submitted/cancelled {0} {1}."
-msgstr ""
+msgstr "Nelze připojit soubor k odeslané/zrušené {0} {1}."
 
 #: mail/overrides.py:47
 msgid "Cannot delete attachment as it is linked with {0} {1}."
-msgstr ""
+msgstr "Nelze odstranit přílohu, protože je spojena s {0} {1}."
 
 #: mail/api/inbound.py:72
 msgid "Cannot fetch more than {0} emails at a time."
-msgstr ""
+msgstr "Nelze načíst více než {0} emailů najednou."
 
 #: mail/mail/doctype/mail_tenant_member/mail_tenant_member.py:25
 msgid "Cannot remove the owner of the tenant."
-msgstr ""
+msgstr "Nelze odstranit vlastníka nájemce."
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:184
 msgid "Cannot renew a non-verified subscription."
-msgstr ""
+msgstr "Nelze obnovit neověřené předplatné."
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:186
 msgid "Cannot renew a subscription that is not active or expired."
-msgstr ""
+msgstr "Nelze obnovit předplatné, které není aktivní nebo vypršelo."
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:229
 msgid "Cannot resubscribe a subscription that is not expired or failed."
-msgstr ""
+msgstr "Nelze se znovu přihlásit k odběru, který nebyl vypršen nebo se nezdařil."
 
 #: mail/mail/doctype/mail_queue/mail_queue.py:488
 msgid "Cannot retry a mail with status {0}"
-msgstr ""
+msgstr "Nelze znovu odeslat e-mail se stavem {0}"
 
 #: mail/overrides.py:39
 msgid "Cannot update attachment as it is linked with {0} {1}."
-msgstr ""
+msgstr "Nelze aktualizovat přílohu, protože je propojena s {0} {1}."
 
 #. Label of the category (Select) field in DocType 'DNS Record'
 #. Label of the category (Select) field in DocType 'Mail Domain DNS Record'
 #: mail/mail/doctype/dns_record/dns_record.json
 #: mail/mail/doctype/mail_domain_dns_record/mail_domain_dns_record.json
 msgid "Category"
-msgstr ""
+msgstr "Kategorie"
 
 #. Option for the 'Type' (Select) field in DocType 'Email Message Recipient'
 #. Option for the 'Type' (Select) field in DocType 'Mail Recipient'
@@ -854,17 +854,17 @@ msgstr ""
 #: mail/mail/doctype/email_message_recipient/email_message_recipient.json
 #: mail/mail/doctype/mail_recipient/mail_recipient.json
 msgid "Cc"
-msgstr ""
+msgstr "Cc"
 
 #: frontend/src/components/MailDetailsPopover.vue:51
 #: frontend/src/components/MailThread.vue:71
 msgid "Cc: "
-msgstr ""
+msgstr "Cc: "
 
 #. Label of the cert (Text) field in DocType 'Mail Server TLS Certificate'
 #: mail/mail/doctype/mail_server_tls_certificate/mail_server_tls_certificate.json
 msgid "Certificate"
-msgstr ""
+msgstr "Certifikát"
 
 #. Label of the certificate_id (Data) field in DocType 'Mail Server TLS
 #. Certificate'
@@ -875,88 +875,88 @@ msgstr ""
 #. Label of the cert_path (Data) field in DocType 'Mail Server TLS Certificate'
 #: mail/mail/doctype/mail_server_tls_certificate/mail_server_tls_certificate.json
 msgid "Certificate Path"
-msgstr ""
+msgstr "Cesta k certifikátu"
 
 #. Label of the challenge (Select) field in DocType 'Mail Server ACME Provider'
 #: mail/mail/doctype/mail_server_acme_provider/mail_server_acme_provider.json
 msgid "Challenge Type"
-msgstr ""
+msgstr "Typ výzvy"
 
 #: frontend/src/components/Modals/ChangePasswordModal.vue:48
 #: frontend/src/components/Settings/ProfileSettings.vue:30
 msgid "Change Password"
-msgstr ""
+msgstr "Změnit heslo"
 
 #. Label of the jmap_protocol_changes_max_results (Int) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Changes"
-msgstr ""
+msgstr "Změny"
 
 #. Label of the changes_max_history (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Changes History (Days)"
-msgstr ""
+msgstr "Historie změn (dny)"
 
 #. Description of the 'SMTP' (Section Break) field in DocType 'Mail Settings'
 #. Description of the 'IMAP' (Section Break) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Changes may require a bench restart to take effect."
-msgstr ""
+msgstr "Změny mohou vyžadovat restartování benche, aby se projevily."
 
 #. Label of the charset (Data) field in DocType 'Email Message Part'
 #: mail/mail/doctype/email_message_part/email_message_part.json
 msgid "Charset"
-msgstr ""
+msgstr "Charset"
 
 #. Label of the check_deliverability (Button) field in DocType 'Bounce History'
 #. Label of the check_deliverability (Button) field in DocType 'Mail Recipient'
 #: mail/mail/doctype/bounce_history/bounce_history.json
 #: mail/mail/doctype/mail_recipient/mail_recipient.json
 msgid "Check Deliverability"
-msgstr ""
+msgstr "Zkontrolovat doručitelnost"
 
 #. Description of the 'Enable Spam Detection' (Check) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Check to enable spam detection."
-msgstr ""
+msgstr "Zaškrtněte pro povolení detekce spamu."
 
 #: mail/mail/doctype/bounce_history/bounce_history.js:16
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.js:196
 msgid "Checking email deliverability..."
-msgstr ""
+msgstr "Kontroluje se doručitelnost e-mailů..."
 
 #. Label of the cleanup_section (Section Break) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Cleanup"
-msgstr ""
+msgstr "Údržba"
 
 #. Label of the smtp_cleanup_interval (Int) field in DocType 'Mail Settings'
 #. Label of the imap_cleanup_interval (Int) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Cleanup Interval (Seconds)"
-msgstr ""
+msgstr "Interval údržby (sekundy)"
 
 #. Label of the dns_provider_client_ip (Data) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Client IP"
-msgstr ""
+msgstr "IP klienta"
 
 #. Label of the cloud_id (Data) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Cloud ID"
-msgstr ""
+msgstr "Cloud ID"
 
 #. Description of the 'Cloud ID' (Data) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Cloud ID for the ElasticSearch cluster."
-msgstr ""
+msgstr "Cloud ID pro ElasticSearch cluster."
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Cloudflare"
-msgstr ""
+msgstr "Cloudflare"
 
 #. Label of the cluster (Link) field in DocType 'Allowed IP'
 #. Label of the cluster (Link) field in DocType 'Blocked IP'
@@ -977,18 +977,18 @@ msgstr ""
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.js:49
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.py:85
 msgid "Cluster"
-msgstr ""
+msgstr "Cluster"
 
 #. Label of the cluster_file (Data) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Cluster File"
-msgstr ""
+msgstr "Cluster soubor"
 
 #. Label of the cluster_ids_section (Section Break) field in DocType 'Mail
 #. Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Cluster IDs"
-msgstr ""
+msgstr "ID Clusteru"
 
 #. Label of the cluster_settings_section (Section Break) field in DocType 'Mail
 #. Cluster'
@@ -1000,59 +1000,59 @@ msgstr ""
 #: mail/mail/doctype/mail_server/mail_server.json
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Cluster Settings"
-msgstr ""
+msgstr "Nastavení Clusteru"
 
 #: mail/mail/doctype/mail_domain/mail_domain.py:78
 msgid "Cluster is not set for Mail Tenant {0}."
-msgstr ""
+msgstr "Kluster není nastaven pro Mail Tenanta {0}."
 
 #: mail/mail/doctype/mail_tenant/mail_tenant.py:30
 msgid "Cluster {0} is disabled."
-msgstr ""
+msgstr "Cluster {0} je zakázán."
 
 #. Option for the 'Status' (Select) field in DocType 'Mail Backend Request'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 msgid "Completed"
-msgstr ""
+msgstr "Dokončeno"
 
 #. Label of the completed_at (Datetime) field in DocType 'Spam Check Log'
 #: mail/mail/doctype/spam_check_log/spam_check_log.json
 msgid "Completed At"
-msgstr ""
+msgstr "Dokončeno v"
 
 #: frontend/src/components/HeaderActions.vue:30
 msgid "Compose"
-msgstr ""
+msgstr "Vytvořit"
 
 #. Label of the compression (Select) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Compression"
-msgstr ""
+msgstr "Komprese"
 
 #. Label of the jmap_protocol_request_max_concurrent (Int) field in DocType
 #. 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Concurrent"
-msgstr ""
+msgstr "Současný"
 
 #. Label of the config_toml (Password) field in DocType 'Mail Server Config'
 #. Label of the config (Code) field in DocType 'Mail Server Config'
 #: mail/mail/doctype/mail_server_config/mail_server_config.json
 msgid "Config"
-msgstr ""
+msgstr "Nastavení"
 
 #. Label of the configuration_section (Section Break) field in DocType 'Mail
 #. Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurace"
 
 #: mail/mail/doctype/mail_cluster/mail_cluster.js:182
 #: mail/mail/doctype/mail_cluster/mail_cluster.py:331
 #: mail/mail/doctype/mail_server/mail_server.js:67
 #: mail/mail/doctype/mail_server/mail_server.py:239
 msgid "Configuration reloaded."
-msgstr ""
+msgstr "Konfigurace znovu načtena."
 
 #: frontend/src/components/HeaderActions.vue:39
 #: frontend/src/components/Modals/AddGroupMembersModal.vue:8
@@ -1065,75 +1065,75 @@ msgstr ""
 #: frontend/src/pages/dashboard/MailGroupsView.vue:137
 #: frontend/src/pages/dashboard/UsersView.vue:182
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdit"
 
 #: frontend/src/components/Modals/ChangePasswordModal.vue:20
 msgid "Confirm New Password"
-msgstr ""
+msgstr "Potvrdit nové heslo"
 
 #. Description of the 'Timeout (Seconds)' (Int) field in DocType 'Mail Server
 #. Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Connection timeout to the database."
-msgstr ""
+msgstr "Časový limit připojení k databázi."
 
 #. Label of the contact (Small Text) field in DocType 'Mail Server ACME
 #. Provider'
 #: mail/mail/doctype/mail_server_acme_provider/mail_server_acme_provider.json
 msgid "Contact Emails"
-msgstr ""
+msgstr "Kontaktní e-maily"
 
 #. Label of the container (Data) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Container"
-msgstr ""
+msgstr "Kontejner"
 
 #. Label of the cid (Data) field in DocType 'Email Message Part'
 #: mail/mail/doctype/email_message_part/email_message_part.json
 msgid "Content ID"
-msgstr ""
+msgstr "ID obsahu"
 
 #: frontend/src/pages/MimeMessageView.vue:5
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "Kopírovat do schránky"
 
 #. Description of the 'Data Storage' (Section Break) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Core storage unit where email metadata, folders, and various settings are stored. Essentially, it contains all the data except for large binary objects (blobs)."
-msgstr ""
+msgstr "Hlavní paměťová jednotka, kde jsou ukládána metadata emailu, složky a různá nastavení. V zásadě obsahuje všechna data kromě velkých binárních objektů (blobs)."
 
 #: mail/mail/doctype/spam_check_log/spam_check_log.py:153
 msgid "Could not connect to SpamAssassin (spamd). Please ensure it's running on {0}:{1}"
-msgstr ""
+msgstr "Nelze se připojit k SpamAssassinu (spamd). Ujistěte se, že je spuštěn na {0}:{1}"
 
 #: mail/mail/doctype/dns_record/dns_record.py:111
 msgid "Could not verify {0}:{1} record."
-msgstr ""
+msgstr "Nepodařilo se ověřit záznam {0}:{1}."
 
 #. Label of the count (Int) field in DocType 'DMARC Report Detail'
 #: mail/mail/doctype/dmarc_report_detail/dmarc_report_detail.json
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.py:40
 msgid "Count"
-msgstr ""
+msgstr "Počet"
 
 #. Label of the create_mail_contact (Check) field in DocType 'Mail Account'
 #: frontend/src/components/Modals/MailAccountModal.vue:22
 #: mail/mail/doctype/mail_account/mail_account.json
 msgid "Create Mail Contact"
-msgstr ""
+msgstr "Vytvořit e-mailový kontakt"
 
 #: frontend/src/components/Settings/AccountSettings.vue:13
 msgid "Create Mail Contacts"
-msgstr ""
+msgstr "Vytvořit e-mailové kontakty"
 
 #: frontend/src/components/LoginLayout.vue:50
 msgid "Create a new account"
-msgstr ""
+msgstr "Vytvořit nový účet"
 
 #: frontend/src/components/Settings/AccountSettings.vue:14
 msgid "Create contacts of people you send mails to."
-msgstr ""
+msgstr "Vytvořte kontakty lidí, kterým posíláte e-maily."
 
 #. Label of the created_at (Datetime) field in DocType 'Incoming Mail'
 #. Label of the created_at (Datetime) field in DocType 'Message Queue'
@@ -1142,19 +1142,19 @@ msgstr ""
 #: mail/mail/doctype/message_queue/message_queue.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Created At"
-msgstr ""
+msgstr "Vytvořeno v"
 
 #: mail/api/mail.py:496
 msgid "Created at"
-msgstr ""
+msgstr "Vytvořeno v"
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.js:129
 msgid "Creating Account..."
-msgstr ""
+msgstr "Vytvářím účet…"
 
 #: mail/mail/doctype/mail_domain_request/mail_domain_request.js:46
 msgid "Creating Domain..."
-msgstr ""
+msgstr "Vytvářím doménu..."
 
 #: mail/mail/doctype/dns_record/dns_record_list.js:16
 #: mail/mail/doctype/incoming_mail/incoming_mail_list.js:25
@@ -1171,61 +1171,61 @@ msgstr ""
 #. Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Creation - Sent At"
-msgstr ""
+msgstr "Vytvoření - Odesláno v"
 
 #: frontend/src/components/Modals/ChangePasswordModal.vue:8
 msgid "Current Password"
-msgstr ""
+msgstr "Aktuální heslo"
 
 #. Label of the current_state (Data) field in DocType 'JMAP Sync State'
 #: mail/mail/doctype/jmap_sync_state/jmap_sync_state.json
 msgid "Current State"
-msgstr ""
+msgstr "Aktuální stav"
 
 #. Label of the custom_headers (Table) field in DocType 'Outgoing Mail'
 #. Label of the section_break_atoq (Section Break) field in DocType 'Outgoing
 #. Mail'
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Custom Headers"
-msgstr ""
+msgstr "Vlastní hlavičky"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:311
 msgid "Custom Headers limit exceeded ({0}). Maximum {1} custom header(s) allowed."
-msgstr ""
+msgstr "Limit vlastních hlaviček překročen ({0}). Maximální povolený {1} vlastní hlavička."
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:322
 msgid "Custom header {0} is not allowed."
-msgstr ""
+msgstr "Vlastní hlavička {0} není povolena."
 
 #. Option for the 'Method' (Select) field in DocType 'Mail Backend Request'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 msgid "DELETE"
-msgstr ""
+msgstr "SMAZAT"
 
 #. Label of the dkim_pass (Check) field in DocType 'Email Message'
 #. Label of the dkim_pass (Check) field in DocType 'Incoming Mail'
 #: mail/api/mail.py:512 mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "DKIM"
-msgstr ""
+msgstr "DKIM"
 
 #. Label of the dkim_description (Small Text) field in DocType 'Email Message'
 #. Label of the dkim_description (Small Text) field in DocType 'Incoming Mail'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "DKIM Description"
-msgstr ""
+msgstr "Popis DKIM"
 
 #. Name of a DocType
 #. Option for the 'Attached To DocType' (Select) field in DocType 'DNS Record'
 #: mail/mail/doctype/dkim_key/dkim_key.json
 #: mail/mail/doctype/dns_record/dns_record.json
 msgid "DKIM Key"
-msgstr ""
+msgstr "DKIM klíč"
 
 #: mail/mail/doctype/mail_domain/mail_domain.py:176
 msgid "DKIM Keys rotated successfully."
-msgstr ""
+msgstr "DKIM klíče úspěšně rotovány."
 
 #. Label of the dkim_rsa_key_size (Select) field in DocType 'Mail Domain'
 #. Label of the default_dkim_rsa_key_size (Select) field in DocType 'Mail
@@ -1233,28 +1233,28 @@ msgstr ""
 #: mail/mail/doctype/mail_domain/mail_domain.json
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "DKIM RSA Key Size"
-msgstr ""
+msgstr "Velikost klíče DKIM RSA"
 
 #. Label of the dkim_result (Select) field in DocType 'DMARC Report Detail'
 #: mail/mail/doctype/dmarc_report_detail/dmarc_report_detail.json
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.js:90
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.py:45
 msgid "DKIM Result"
-msgstr ""
+msgstr "Výsledek DKIM"
 
 #. Label of the dmarc_pass (Check) field in DocType 'Email Message'
 #. Label of the dmarc_pass (Check) field in DocType 'Incoming Mail'
 #: mail/api/mail.py:513 mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "DMARC"
-msgstr ""
+msgstr "DMARC"
 
 #. Label of the dmarc_description (Small Text) field in DocType 'Email Message'
 #. Label of the dmarc_description (Small Text) field in DocType 'Incoming Mail'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "DMARC Description"
-msgstr ""
+msgstr "Popis DMARC"
 
 #. Name of a DocType
 #. Option for the 'Type' (Select) field in DocType 'Incoming Mail'
@@ -1263,181 +1263,181 @@ msgstr ""
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.js:39
 msgid "DMARC Report"
-msgstr ""
+msgstr "Zpráva DMARC"
 
 #: mail/mail/doctype/incoming_mail/incoming_mail.py:141
 msgid "DMARC Report Creation Failed"
-msgstr ""
+msgstr "Vytvoření zprávy DMARC se nezdařilo"
 
 #. Name of a DocType
 #: mail/mail/doctype/dmarc_report_detail/dmarc_report_detail.json
 msgid "DMARC Report Detail"
-msgstr ""
+msgstr "Detail zprávy DMARC"
 
 #. Name of a report
 #: mail/mail/doctype/mail_domain/mail_domain.js:24
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.json
 msgid "DMARC Report Viewer"
-msgstr ""
+msgstr "Nástroj pro zobrazení DMARC zpráv"
 
 #: mail/mail/doctype/dmarc_report/dmarc_report.js:11
 msgid "DMARC Viewer"
-msgstr ""
+msgstr "DMARC Prohlížeč"
 
 #. Label of the dns_provider (Select) field in DocType 'Mail Settings'
 #. Label of the dns_provider_section (Section Break) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "DNS Provider"
-msgstr ""
+msgstr "Poskytovatel DNS"
 
 #. Name of a DocType
 #: mail/mail/doctype/dns_record/dns_record.json
 msgid "DNS Record"
-msgstr ""
+msgstr "DNS záznam"
 
 #: mail/mail/doctype/dns_record/dns_record.py:48
 msgid "DNS Record with the same host and type already exists."
-msgstr ""
+msgstr "DNS záznam se stejným hostitelem a typem již existuje."
 
 #. Label of the dns_records (Table) field in DocType 'Mail Domain'
 #: frontend/src/pages/dashboard/DomainView.vue:35
 #: mail/mail/doctype/mail_domain/mail_domain.json
 #: mail/mail/doctype/mail_settings/mail_settings.js:26
 msgid "DNS Records"
-msgstr ""
+msgstr "DNS záznamy"
 
 #: mail/mail/doctype/mail_domain/mail_domain.py:138
 msgid "DNS Records refreshed successfully."
-msgstr ""
+msgstr "DNS záznamy úspěšně aktualizovány."
 
 #: mail/mail/doctype/mail_domain/mail_domain.py:158
 msgid "DNS Records verified successfully."
-msgstr ""
+msgstr "DNS záznamy úspěšně ověřeny."
 
 #: mail/mail/doctype/mail_settings/mail_settings.js:27
 msgid "DNS provider or token not configured. Please manually add the {0} to the DNS provider for the domain {1} to ensure proper email authentication."
-msgstr ""
+msgstr "DNS poskytovatel nebo token není nakonfigurován. Prosím ručně přidejte {0} k DNS poskytovateli pro doménu {1} pro zajištění správného ověření e-mailu."
 
 #. Option for the 'Type' (Select) field in DocType 'Incoming Mail'
 #: frontend/src/components/MailListItem.vue:115
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "DSN Report"
-msgstr ""
+msgstr "DSN zpráva"
 
 #. Label of the datacenter (Data) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Data Center ID"
-msgstr ""
+msgstr "ID datového centra"
 
 #. Label of the data_storage_section (Section Break) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 #: mail/mail/doctype/mail_cluster/mail_cluster.py:339
 msgid "Data Storage"
-msgstr ""
+msgstr "Úložiště dat"
 
 #. Description of the 'Data Center ID' (Data) field in DocType 'Mail Server
 #. Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Data center ID of the FoundationDB cluster."
-msgstr ""
+msgstr "ID datového centra clustru FoundationDB."
 
 #. Label of the database (Data) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Database"
-msgstr ""
+msgstr "Databáze"
 
 #: frontend/src/components/MailDetailsPopover.vue:60
 msgid "Date: "
-msgstr ""
+msgstr "Datum: "
 
 #. Description of the 'Full Text Index Storage' (Section Break) field in
 #. DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Dedicated to indexing for full-text search, enhancing the speed and efficiency of text-based queries."
-msgstr ""
+msgstr "Vyhrazeno pro indexaci pro fulltextové vyhledávání, zvyšování rychlosti a efektivity dotazů založených na textu."
 
 #. Label of the default (Check) field in DocType 'Mail Server ACME Provider'
 #. Label of the default (Check) field in DocType 'Mail Server TLS Certificate'
 #: mail/mail/doctype/mail_server_acme_provider/mail_server_acme_provider.json
 #: mail/mail/doctype/mail_server_tls_certificate/mail_server_tls_certificate.json
 msgid "Default"
-msgstr ""
+msgstr "Výchozí"
 
 #. Label of the default_outgoing_email (Data) field in DocType 'Mail Account'
 #: frontend/src/components/Modals/MailAccountModal.vue:27
 #: mail/mail/doctype/mail_account/mail_account.json
 msgid "Default Email"
-msgstr ""
+msgstr "Výchozí e-mail"
 
 #: mail/mail/doctype/mail_account/mail_account.py:172
 msgid "Default Email must be one of the email addresses assigned to the user."
-msgstr ""
+msgstr "Výchozí e-mail musí být jedna z e-mailových adres přiřazených uživateli."
 
 #. Label of the storage_full_text_default_language (Data) field in DocType
 #. 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Default Language"
-msgstr ""
+msgstr "Výchozí jazyk"
 
 #. Description of the 'Default Language' (Data) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Default language to use when language detection is not possible."
-msgstr ""
+msgstr "Výchozí jazyk, který se použije, když není možné provést detekci jazyka."
 
 #. Label of the section_break_l9un (Section Break) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Defaults"
-msgstr ""
+msgstr "Výchozí nastavení"
 
 #. Description of the 'Listeners' (Table) field in DocType 'Mail Server'
 #: mail/mail/doctype/mail_server/mail_server.json
 msgid "Define custom listeners for this mail server. If not set, the cluster’s listeners will be used."
-msgstr ""
+msgstr "Definujte vlastní posluchače pro tento poštovní server. Pokud nejsou nastaveny, budou použity posluchače clusteru."
 
 #. Description of the 'Max Size (Bytes)' (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Defines the maximum file size for file uploads to the server."
-msgstr ""
+msgstr "Definuje maximální velikost souboru pro nahrávání souborů na server."
 
 #. Description of the 'Size (Bytes)' (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Defines the maximum size of a single request, in bytes, that the server will accept."
-msgstr ""
+msgstr "Definuje maximální velikost jediné žádosti v bajtech, kterou server přijme."
 
 #. Description of the 'Total Size (Bytes)' (Int) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Defines the total size of files that a user can upload within a certain period."
-msgstr ""
+msgstr "Určuje celkovou velikost souborů, které může uživatel nahrát během určitého období."
 
 #: frontend/src/pages/dashboard/InvitesView.vue:63
 #: frontend/src/pages/dashboard/MailAliasesView.vue:62
 #: frontend/src/pages/dashboard/MailGroupsView.vue:55
 msgid "Delete"
-msgstr ""
+msgstr "Smazat"
 
 #: frontend/src/pages/dashboard/MailAliasesView.vue:157
 msgid "Delete Aliases"
-msgstr ""
+msgstr "Smazat aliasy"
 
 #: frontend/src/pages/dashboard/MailGroupsView.vue:133
 msgid "Delete Groups"
-msgstr ""
+msgstr "Smazat skupiny"
 
 #: frontend/src/pages/dashboard/InvitesView.vue:166
 msgid "Delete Invites"
-msgstr ""
+msgstr "Smazat pozvánky"
 
 #: frontend/src/components/MailThread.vue:385
 msgid "Delete Message"
-msgstr ""
+msgstr "Smazat zprávu"
 
 #: frontend/src/components/MailThread.vue:310
 msgid "Delete Thread"
-msgstr ""
+msgstr "Smazat vlákno"
 
 #: frontend/src/pages/MailFolderView.vue:338
 msgid "Delete Threads"
@@ -1446,139 +1446,139 @@ msgstr ""
 #. Label of the delivered_to (Data) field in DocType 'Incoming Mail'
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "Delivered To"
-msgstr ""
+msgstr "Doručeno komu"
 
 #. Label of the delivery_mode (Select) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Delivery Mode"
-msgstr ""
+msgstr "Režim doručení"
 
 #: mail/mail/doctype/message_queue/message_queue.py:75
 msgid "Delivery cancelled successfully."
-msgstr ""
+msgstr "Dodání bylo úspěšně zrušeno."
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:769
 msgid "Delivery of this email was blocked because all recipients are on our blocklist. Repeated delivery failures to these addresses have led to their blocking. To protect your sender reputation and avoid further issues, this email was not sent. Please review the recipient list or contact support for assistance."
-msgstr ""
+msgstr "Doručení tohoto e-mailu bylo zablokováno, protože všichni příjemci jsou na našem blokovacím seznamu. Opakované neúspěchy doručení na tyto adresy vedly k jejich zablokování. Abychom ochránili vaši pověst odesílatele a předešli dalším problémům, tento e-mail nebyl odeslán. Zkontrolujte prosím seznam příjemců nebo kontaktujte podporu pro pomoc."
 
 #: mail/mail/doctype/message_queue/message_queue.py:63
 #: mail/mail/doctype/message_queue/message_queue.py:116
 msgid "Delivery retried successfully."
-msgstr ""
+msgstr "Opětovné doručení se provedlo"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:759
 msgid "Delivery to this recipient was blocked because their email address is on our blocklist. This action was taken after repeated delivery failures to this address. To protect your sender reputation and prevent further issues, this email was not sent to the blocked recipient."
-msgstr ""
+msgstr "Doručení tomuto příjemci bylo zablokováno, protože jeho e-mailová adresa je na našem blokovacím seznamu. Tato akce byla provedena po opakovaných neúspěšných pokusech o doručení na tuto adresu. Abychom chránili vaši reputaci odesílatele a předešli dalším problémům, tento e-mail nebyl odeslán blokovanému příjemci."
 
 #: mail/mail/doctype/email_message/email_message.js:67
 #: mail/mail/doctype/email_message/email_message_list.js:11
 msgid "Destroy"
-msgstr ""
+msgstr "Odstranit"
 
 #. Label of the destroy_after_submission (Check) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Destroy After Submission"
-msgstr ""
+msgstr "Odstranit po odeslání"
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.js:46
 msgid "Destroy All Subscriptions"
-msgstr ""
+msgstr "Odstranit všechny odběry"
 
 #. Label of the destroyed (Check) field in DocType 'Email Message'
 #: mail/mail/doctype/email_message/email_message.json
 msgid "Destroyed"
-msgstr ""
+msgstr "Odstrantěno"
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.js:99
 msgid "Destroying all subscriptions..."
-msgstr ""
+msgstr "Odstraňuji všechna předplatné..."
 
 #: mail/mail/doctype/email_message/email_message.js:73
 msgid "Destroying..."
-msgstr ""
+msgstr "Odstraňování..."
 
 #. Label of the details_tab (Tab Break) field in DocType 'Mail Cluster'
 #. Label of the details_tab (Tab Break) field in DocType 'Mail Server'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 #: mail/mail/doctype/mail_server/mail_server.json
 msgid "Details"
-msgstr ""
+msgstr "Podrobnosti"
 
 #. Description of the 'Renew Before (Days)' (Int) field in DocType 'Mail Server
 #. ACME Provider'
 #: mail/mail/doctype/mail_server_acme_provider/mail_server_acme_provider.json
 msgid "Determines how early before expiration the certificate should be renewed."
-msgstr ""
+msgstr "Určuje, jak brzy před expirací by měl být certifikát obnoven."
 
 #. Description of the 'Changes' (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Determines the maximum number of change objects that a Changes method can return."
-msgstr ""
+msgstr "Určuje maximální počet změnových objektů, které může metoda Změny vrátit."
 
 #. Description of the 'Get' (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Determines the maximum number of objects that can be fetched in a single method call."
-msgstr ""
+msgstr "Určuje maximální počet objektů, které mohou být načteny v jediném volání metody."
 
 #. Description of the 'E-mail Size (Bytes)' (Int) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Determines the maximum size for an email message."
-msgstr ""
+msgstr "Určuje maximální velikost e-mailové zprávy."
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "DigitalOcean"
-msgstr ""
+msgstr "DigitalOcean"
 
 #. Label of the directory_id (Data) field in DocType 'Mail Server ACME
 #. Provider'
 #: mail/mail/doctype/mail_server_acme_provider/mail_server_acme_provider.json
 msgid "Directory ID"
-msgstr ""
+msgstr "ID adresáře"
 
 #. Label of the directory_storage_section (Section Break) field in DocType
 #. 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 #: mail/mail/doctype/mail_cluster/mail_cluster.py:338
 msgid "Directory Storage"
-msgstr ""
+msgstr "Úložiště adresářů"
 
 #. Label of the directory (Data) field in DocType 'Mail Server ACME Provider'
 #: mail/mail/doctype/mail_server_acme_provider/mail_server_acme_provider.json
 msgid "Directory URL"
-msgstr ""
+msgstr "URL adresáře"
 
 #: frontend/src/pages/dashboard/DomainView.vue:174
 #: frontend/src/pages/dashboard/DomainView.vue:193
 msgid "Disable Domain"
-msgstr ""
+msgstr "Zakázat doménu"
 
 #. Description of the 'Outbound Only' (Check) field in DocType 'Mail Server'
 #: mail/mail/doctype/mail_server/mail_server.json
 msgid "Disable email delivery to local domains and perform an MX lookup to route emails externally."
-msgstr ""
+msgstr "Zakázat doručování e-mailů do místních domén a provádět hledání MX pro trasu e-mailů zvnějšku."
 
 #. Description of the 'Enabled' (Check) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Disable to stop sending and receiving emails form this cluster."
-msgstr ""
+msgstr "Zakázat ukončení odesílání a přijímání e-mailů z tohoto clusteru."
 
 #. Description of the 'Enabled' (Check) field in DocType 'Mail Server'
 #: mail/mail/doctype/mail_server/mail_server.json
 msgid "Disable to stop this mail server from sending or receiving emails."
-msgstr ""
+msgstr "Zakázat tomuto serveru odesílání nebo přijímání emailů."
 
 #: frontend/src/pages/dashboard/DomainView.vue:154
 #: frontend/src/pages/dashboard/DomainsView.vue:121
 #: frontend/src/pages/dashboard/MailAliasesView.vue:186
 #: frontend/src/pages/dashboard/MailGroupsView.vue:159
 msgid "Disabled"
-msgstr ""
+msgstr "Zakázáno"
 
 #: frontend/src/components/SendMail.vue:191
 msgid "Discard"
-msgstr ""
+msgstr "Zrušit"
 
 #. Label of the display_name (Data) field in DocType 'Email Message Recipient'
 #. Label of the display_name (Data) field in DocType 'Email Message Reply To'
@@ -1602,7 +1602,7 @@ msgstr ""
 #: mail/mail/doctype/mail_recipient/mail_recipient.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Display Name"
-msgstr ""
+msgstr "Zobrazit jméno"
 
 #. Label of the disposition (Data) field in DocType 'DMARC Report Detail'
 #. Label of the disposition (Select) field in DocType 'Email Message Part'
@@ -1611,7 +1611,7 @@ msgstr ""
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.js:68
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.py:41
 msgid "Disposition"
-msgstr ""
+msgstr "Zpracovávání"
 
 #. Label of the domain_name (Link) field in DocType 'Mail Account Request'
 #. Group in Mail Tenant's connections
@@ -1621,7 +1621,7 @@ msgstr ""
 #: mail/mail/doctype/mail_tenant/mail_tenant.json
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.py:48
 msgid "Domain"
-msgstr ""
+msgstr "Doména"
 
 #. Label of the domain_name (Link) field in DocType 'DKIM Key'
 #. Label of the domain_name (Link) field in DocType 'DMARC Report'
@@ -1657,84 +1657,84 @@ msgstr ""
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.js:41
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.py:78
 msgid "Domain Name"
-msgstr ""
+msgstr "Název domény"
 
 #: mail/mail/doctype/mail_domain_request/mail_domain_request.py:78
 msgid "Domain Verification Failed"
-msgstr ""
+msgstr "Ověření domény se nezdařilo"
 
 #: mail/mail/doctype/mail_domain_request/mail_domain_request.py:76
 msgid "Domain Verification Successful"
-msgstr ""
+msgstr "Ověření domény bylo úspěšné"
 
 #: mail/mail/doctype/mail_domain_request/mail_domain_request.py:70
 msgid "Domain is already verified and created."
-msgstr ""
+msgstr "Doména je již ověřena a vytvořena."
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.py:114
 msgid "Domain is mandatory."
-msgstr ""
+msgstr "Doména je povinná."
 
 #: frontend/src/pages/dashboard/DomainView.vue:91
 msgid "Domain settings updated."
-msgstr ""
+msgstr "Nastavení domény aktualizováno."
 
 #: mail/mail/doctype/mail_domain_request/mail_domain_request.py:52
 msgid "Domain {0} already registered."
-msgstr ""
+msgstr "Doména {0} je již registrována."
 
 #: mail/utils/validation.py:156
 msgid "Domain {0} and User {1} do not belong to the same tenant."
-msgstr ""
+msgstr "Doména {0} a uživatel {1} nepatří ke stejnému tenantovi."
 
 #: mail/mail/doctype/mail_account/mail_account.py:120
 msgid "Domain {0} and User {1} must belong to the same tenant."
-msgstr ""
+msgstr "Doména {0} a uživatel {1} musí patřit ke stejnému tenantovi."
 
 #: mail/mail/doctype/mail_alias/mail_alias.py:99
 msgid "Domain {0} and {1} {2} must belong to the same tenant."
-msgstr ""
+msgstr "Doména {0} a {1} {2} musí patřit stejnému tenantovi."
 
 #: mail/utils/validation.py:182
 msgid "Domain {0} does not exist or may be disabled in the Mail Domain."
-msgstr ""
+msgstr "Doména {0} neexistuje nebo může být zakázána v poštovní doméně."
 
 #: mail/api/admin.py:30
 msgid "Domain {0} has already been registered."
-msgstr ""
+msgstr "Doména {0} je již registrována."
 
 #: mail/utils/validation.py:128
 msgid "Domain {0} is disabled."
-msgstr ""
+msgstr "Doména {0} je zakázána."
 
 #: mail/api/account.py:44
 msgid "Domain {0} is not allowed for personal signup."
-msgstr ""
+msgstr "Doména {0} není povolena pro osobní registraci."
 
 #: mail/utils/validation.py:138
 msgid "Domain {0} is not owned by the tenant."
-msgstr ""
+msgstr "Doména {0} není vlastněna tenantem."
 
 #: mail/utils/validation.py:130
 msgid "Domain {0} is not verified."
-msgstr ""
+msgstr "Doména {0} není ověřena."
 
 #: mail/utils/validation.py:189
 msgid "Domain {0} not found in Mail Domain."
-msgstr ""
+msgstr "Doména {0} nebyla nalezena v poštovní doméně."
 
 #. Label of the domains (JSON) field in DocType 'Message Queue'
 #: frontend/src/pages/dashboard/DomainView.vue:143
 #: frontend/src/pages/dashboard/DomainsView.vue:3
 #: mail/mail/doctype/message_queue/message_queue.json
 msgid "Domains"
-msgstr ""
+msgstr "Domény"
 
 #. Description of the 'Personal Signup Domains' (Table MultiSelect) field in
 #. DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Domains allowed for personal signup."
-msgstr ""
+msgstr "Domeny povolené pro osobní registraci."
 
 #. Label of the draft (Check) field in DocType 'Email Message'
 #. Option for the 'Status' (Select) field in DocType 'Incoming Mail'
@@ -1744,7 +1744,7 @@ msgstr ""
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Draft"
-msgstr ""
+msgstr "Koncept"
 
 #. Option for the 'Status' (Select) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
@@ -1754,73 +1754,73 @@ msgstr ""
 #. Label of the drafted_after (Float) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Drafted After (Seconds)"
-msgstr ""
+msgstr "Navrhnuto po (v sekundách)"
 
 #. Label of the drafted_at (Datetime) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Drafted At"
-msgstr ""
+msgstr "Navrženo dne"
 
 #. Description of the 'Drafted After (Seconds)' (Float) field in DocType 'Mail
 #. Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Drafted At - Creation"
-msgstr ""
+msgstr "Navrženo na - Vytvoření"
 
 #. Option for the 'Folder' (Select) field in DocType 'Outgoing Mail'
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Drafts"
-msgstr ""
+msgstr "Koncept"
 
 #: mail/mail/doctype/dns_record/dns_record.py:49
 msgid "Duplicate Record"
-msgstr ""
+msgstr "Kopírovat záznam"
 
 #. Label of the duration (Float) field in DocType 'Mail Backend Request'
 #. Label of the duration (Float) field in DocType 'Spam Check Log'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 #: mail/mail/doctype/spam_check_log/spam_check_log.json
 msgid "Duration (Seconds)"
-msgstr ""
+msgstr "Trvání (v sekundách)"
 
 #. Label of the jmap_email_max_size (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "E-mail Size (Bytes)"
-msgstr ""
+msgstr "Velikost e-mailu (Bajty)"
 
 #: frontend/src/components/MailThread.vue:331
 msgid "Edit Draft"
-msgstr ""
+msgstr "Upravit koncept"
 
 #: frontend/src/components/Modals/EditPhotoModal.vue:2
 #: frontend/src/components/Settings/ProfileSettings.vue:15
 msgid "Edit Photo"
-msgstr ""
+msgstr "Upravit fotografii"
 
 #: mail/mail/doctype/mail_queue/mail_queue.py:449
 msgid "Either blob_id or file_url is required for attachments."
-msgstr ""
+msgstr "Pro přílohy je vyžadováno blob_id nebo file_url."
 
 #: mail/mail/doctype/email_message/email_message.py:649
 msgid "Either cid or blob_id is required."
-msgstr ""
+msgstr "Je vyžadován buď cid nebo blob_id."
 
 #: mail/utils/__init__.py:103
 msgid "Either file path or file data is required."
-msgstr ""
+msgstr "Je vyžadována cesta k souboru, nebo data souboru."
 
 #: mail/mail/doctype/rate_limit/rate_limit.py:41
 msgid "Either key or IP flag is required."
-msgstr ""
+msgstr "Buď je vyžadován klíč, nebo IP příznak."
 
 #: mail/mail/doctype/mail_queue/mail_queue.py:57
 msgid "Either name or file URL is required."
-msgstr ""
+msgstr "Je vyžadováno jméno nebo URL souboru."
 
 #. Option for the 'Type' (Select) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "ElasticSearch"
-msgstr ""
+msgstr "ElasticSearch"
 
 #. Label of the email (Data) field in DocType 'DMARC Report'
 #. Label of the email (Data) field in DocType 'Email Message Recipient'
@@ -1849,129 +1849,129 @@ msgstr ""
 #: mail/mail/doctype/message_queue/message_queue.js:46
 #: mail/mail/doctype/message_queue_recipient/message_queue_recipient.json
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #. Label of the _id (Data) field in DocType 'Email Message'
 #. Label of the _id (Data) field in DocType 'Mail Queue'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Email ID"
-msgstr ""
+msgstr "ID e-mailu"
 
 #. Label of the email_limits_section (Section Break) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Email Limits"
-msgstr ""
+msgstr "Limity e-mailu"
 
 #. Name of a DocType
 #: mail/mail/doctype/email_message/email_message.json
 msgid "Email Message"
-msgstr ""
+msgstr "E-mailová zpráva"
 
 #. Name of a DocType
 #: mail/mail/doctype/email_message_part/email_message_part.json
 msgid "Email Message Part"
-msgstr ""
+msgstr "Část e-mailové zprávy"
 
 #. Name of a DocType
 #: mail/mail/doctype/email_message_recipient/email_message_recipient.json
 msgid "Email Message Recipient"
-msgstr ""
+msgstr "Příjemce e-mailové zprávy"
 
 #. Name of a DocType
 #: mail/mail/doctype/email_message_reply_to/email_message_reply_to.json
 msgid "Email Message Reply To"
-msgstr ""
+msgstr "Odpověď na e-mailovou zprávu"
 
 #: mail/mail/doctype/email_message/email_message.py:689
 msgid "Email Message {0} has already been destroyed."
-msgstr ""
+msgstr "Emailová zpráva {0} byla již zničena."
 
 #: mail/mail/doctype/email_message/email_message.py:635
 msgid "Email Message {0} has been destroyed and will be permanently removed soon."
-msgstr ""
+msgstr "Emailová zpráva {0} byla zničena a brzy bude trvale odstraněna."
 
 #: mail/mail/doctype/email_message/email_message.py:625
 msgid "Email Message {0} is a draft. Please send it before performing this action."
-msgstr ""
+msgstr "E-mailová zpráva {0} je koncept. Prosím, odešlete ji před provedením této akce."
 
 #: mail/mail/doctype/email_message/email_message.py:904
 msgid "Email Message {0} is not a draft."
-msgstr ""
+msgstr "E-mailová zpráva {0} není koncept."
 
 #: mail/api/auth.py:39
 msgid "Email address {0} is not associated with the user {1}."
-msgstr ""
+msgstr "E-mailová adresa {0} není přiřazena k uživateli {1}."
 
 #: mail/mail/doctype/email_message/email_message.py:881
 #: mail/mail/doctype/mail_queue/mail_queue.py:497
 msgid "Email does not have a blob ID."
-msgstr ""
+msgstr "Email nemá blob ID."
 
 #: mail/mail/doctype/email_message/email_message.py:646
 msgid "Email does not have any attachments."
-msgstr ""
+msgstr "E-mail nemá žádné přílohy."
 
 #: mail/utils/validation.py:101
 msgid "Email domain {0} does not match with domain {1}."
-msgstr ""
+msgstr "Email doména {0} se neshoduje s doménou {1}."
 
 #: mail/mail/doctype/mail_account/mail_account.py:141
 msgid "Email is mandatory."
-msgstr ""
+msgstr "E-mail je povinný."
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.py:169
 msgid "Email is required to send invite"
-msgstr ""
+msgstr "Pro odeslání pozvánky je vyžadován e-mail"
 
 #: mail/mail/doctype/email_message/email_message.py:990
 msgid "Email messages destroyed successfully."
-msgstr ""
+msgstr "E-mailové zprávy úspěšně zničeny."
 
 #: mail/mail/doctype/mail_queue/mail_queue.py:802
 msgid "Email processing aborted: {failed_count} out of {total_count} emails failed ({failure_rate:.2%} failure rate). Please investigate the issue before retrying."
-msgstr ""
+msgstr "Zpracování e-mailu přerušeno: {failed_count} z {total_count} selhalo ({failure_rate:.2%} selhání). Před dalším pokusem problém prosím prozkoumejte."
 
 #: frontend/src/components/HeaderActions.vue:29
 msgid "Empty Spam"
-msgstr ""
+msgstr "Vyprázdnit nevyžádanou poštu"
 
 #: frontend/src/components/HeaderActions.vue:28
 msgid "Empty Trash"
-msgstr ""
+msgstr "Vyprázdnit Koš"
 
 #. Label of the enable_spamd_for_outbound (Check) field in DocType 'Mail
 #. Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Enable"
-msgstr ""
+msgstr "Povolit"
 
 #. Label of the enable_spamd (Check) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Enable Spam Detection"
-msgstr ""
+msgstr "Povolit detekci nevyžádané pošty"
 
 #. Label of the tls_enable (Check) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Enable TLS"
-msgstr ""
+msgstr "Povolit TLS"
 
 #. Label of the email_encryption_enable (Check) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Enable encryption at rest"
-msgstr ""
+msgstr "Povolit šifrování ve zbytku"
 
 #. Description of the 'Enable' (Check) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Enable or disable outbound spam detection."
-msgstr ""
+msgstr "Povolit nebo zakázat detekci odchozích spamů."
 
 #. Description of the 'Trusted Networks' (Small Text) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Enable proxy protocol for connections from these networks."
-msgstr ""
+msgstr "Povolit proxy protokol pro spojení z těchto sítí."
 
 #. Label of the enabled (Check) field in DocType 'DKIM Key'
 #. Label of the enabled (Check) field in DocType 'Mail Account'
@@ -1995,33 +1995,33 @@ msgstr ""
 #: mail/mail/doctype/mail_server/mail_server.json
 #: mail/mail/doctype/rate_limit/rate_limit.json
 msgid "Enabled"
-msgstr ""
+msgstr "Povoleno"
 
 #. Description of the 'Encrypt on append' (Check) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Encrypt messages that are manually appended by the user using JMAP or IMAP."
-msgstr ""
+msgstr "Šifrovat zprávy, které jsou uživatelsky připojeny pomocí JMAP nebo IMAP."
 
 #. Label of the email_encryption_append (Check) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Encrypt on append"
-msgstr ""
+msgstr "Šifrovat při připojení"
 
 #. Label of the cluster_key (Password) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Encryption Key"
-msgstr ""
+msgstr "Šifrovací klíč"
 
 #. Label of the on_end_kwargs (JSON) field in DocType 'Mail Backend Request'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 msgid "End Kwargs"
-msgstr ""
+msgstr "End Kwargs"
 
 #. Label of the ended_at (Datetime) field in DocType 'Mail Backend Request'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 msgid "Ended At"
-msgstr ""
+msgstr "Ukončeno v"
 
 #. Label of the endpoint (Data) field in DocType 'JMAP Push Subscription'
 #. Label of the endpoint (Data) field in DocType 'Mail Backend Request'
@@ -2030,12 +2030,12 @@ msgstr ""
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Endpoint"
-msgstr ""
+msgstr "Endpoint"
 
 #. Option for the 'Delivery Mode' (Select) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Enqueue"
-msgstr ""
+msgstr "Přidat do fronty"
 
 #: frontend/src/components/Settings/AccountSettings.vue:30
 msgid "Enter comma-separated email addresses where replies should be sent."
@@ -2044,14 +2044,14 @@ msgstr ""
 #. Label of the env_id (Data) field in DocType 'Message Queue'
 #: mail/mail/doctype/message_queue/message_queue.json
 msgid "Env ID"
-msgstr ""
+msgstr "Env ID"
 
 #. Label of the envelope_from (Data) field in DocType 'DMARC Report Detail'
 #: mail/mail/doctype/dmarc_report_detail/dmarc_report_detail.json
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.js:79
 #: mail/mail/report/dmarc_report_viewer/dmarc_report_viewer.py:43
 msgid "Envelope From"
-msgstr ""
+msgstr "Obálka odesílatele"
 
 #. Label of the error_section (Section Break) field in DocType 'Mail Queue'
 #. Label of the section_break_ubzr (Section Break) field in DocType 'Outgoing
@@ -2059,7 +2059,7 @@ msgstr ""
 #: mail/mail/doctype/mail_queue/mail_queue.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Error"
-msgstr ""
+msgstr "Chyba"
 
 #. Label of the error_log (Code) field in DocType 'Mail Backend Request'
 #. Label of the error_log (Code) field in DocType 'Mail Queue'
@@ -2068,7 +2068,7 @@ msgstr ""
 #: mail/mail/doctype/mail_queue/mail_queue.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Error Log"
-msgstr ""
+msgstr "Protokol chyb"
 
 #. Label of the error_message (Small Text) field in DocType 'Mail Queue'
 #. Label of the error_message (Code) field in DocType 'Mail Recipient'
@@ -2077,68 +2077,68 @@ msgstr ""
 #: mail/mail/doctype/mail_recipient/mail_recipient.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Error Message"
-msgstr ""
+msgstr "Chybová zpráva"
 
 #. Description of the 'Name Length' (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Establishes the maximum length of a mailbox name."
-msgstr ""
+msgstr "Stanovuje maximální délku názvu schránky."
 
 #. Description of the 'Set' (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Establishes the maximum number of objects that can be modified in a single method call."
-msgstr ""
+msgstr "Umožňuje maximální počet objektů, které mohou být upraveny v jednom volání metody."
 
 #. Option for the 'Scanning Mode' (Select) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "Exclude Attachments"
-msgstr ""
+msgstr "Vyloučit přílohy"
 
 #. Label of the jmap_protocol_upload_ttl (Int) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Expire After (Hours)"
-msgstr ""
+msgstr "Konec platnosti po (hodiny)"
 
 #. Option for the 'Status' (Select) field in DocType 'JMAP Push Subscription'
 #: frontend/src/pages/dashboard/InvitesView.vue:196
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.json
 msgid "Expired"
-msgstr ""
+msgstr "Platnost vypršela"
 
 #. Label of the expires (Datetime) field in DocType 'Message Queue Recipient'
 #: mail/mail/doctype/message_queue/message_queue.js:90
 #: mail/mail/doctype/message_queue_recipient/message_queue_recipient.json
 msgid "Expires"
-msgstr ""
+msgstr "Platnost"
 
 #. Label of the expires_at (Datetime) field in DocType 'JMAP Push Subscription'
 #. Label of the expires_at (Datetime) field in DocType 'Mail Account Request'
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.json
 #: mail/mail/doctype/mail_account_request/mail_account_request.json
 msgid "Expires At"
-msgstr ""
+msgstr "Platnost do"
 
 #. Label of the external_account_binding_section (Section Break) field in
 #. DocType 'Mail Server ACME Provider'
 #: mail/mail/doctype/mail_server_acme_provider/mail_server_acme_provider.json
 msgid "External Account Binding"
-msgstr ""
+msgstr "Propojení externího účtu"
 
 #. Label of the extra_contact_info (Small Text) field in DocType 'DMARC Report'
 #: mail/mail/doctype/dmarc_report/dmarc_report.json
 msgid "Extra Contact Info"
-msgstr ""
+msgstr "Další kontaktní informace"
 
 #. Option for the 'DKIM Result' (Select) field in DocType 'DMARC Report Detail'
 #. Option for the 'SPF Result' (Select) field in DocType 'DMARC Report Detail'
 #: mail/mail/doctype/dmarc_report_detail/dmarc_report_detail.json
 msgid "FAIL"
-msgstr ""
+msgstr "SELHÁNÍ"
 
 #. Description of the 'Hostname' (Data) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "FQDN of the proxy or load balancer forwarding requests to mail servers."
-msgstr ""
+msgstr "FQDN požadavků na load balancer proxy nebo načtení na poštovní servery."
 
 #. Option for the 'Status' (Select) field in DocType 'Mail Backend Request'
 #. Option for the 'Status' (Select) field in DocType 'Mail Queue'
@@ -2148,151 +2148,151 @@ msgstr ""
 #: mail/mail/doctype/mail_queue/mail_queue.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Failed"
-msgstr ""
+msgstr "Selhalo"
 
 #. Label of the failed_count (Int) field in DocType 'Mail Queue'
 #. Label of the failed_count (Int) field in DocType 'Outgoing Mail'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Failed Count"
-msgstr ""
+msgstr "Počet selhání"
 
 #. Option for the 'Status' (Select) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Failed to Draft"
-msgstr ""
+msgstr "Koncept se nezdařil"
 
 #. Option for the 'Status' (Select) field in DocType 'JMAP Push Subscription'
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.json
 msgid "Failed to Renew"
-msgstr ""
+msgstr "Nepodařilo se obnovit"
 
 #. Option for the 'Status' (Select) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Failed to Submit"
-msgstr ""
+msgstr "Nepodařilo se odeslat"
 
 #. Option for the 'Status' (Select) field in DocType 'JMAP Push Subscription'
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.json
 msgid "Failed to Subscribe"
-msgstr ""
+msgstr "Přihlášení k odběru selhalo"
 
 #. Option for the 'Status' (Select) field in DocType 'JMAP Push Subscription'
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.json
 msgid "Failed to Verify"
-msgstr ""
+msgstr "Ověření se nezdařilo"
 
 #: mail/mail/doctype/dmarc_report/dmarc_report.py:105
 msgid "Failed to create DMARC Report"
-msgstr ""
+msgstr "Nepodařilo se vytvořit zprávu DMARC"
 
 #: mail/mail/doctype/email_message/email_message.py:1117
 msgid "Failed to delete destroyed emails"
-msgstr ""
+msgstr "Nepodařilo se smazat zničené e-maily"
 
 #: mail/mail/doctype/email_message/email_message.py:229
 msgid "Failed to destroy email(s)"
-msgstr ""
+msgstr "Nepodařilo se odstranit e-mail(y)"
 
 #: mail/mail/doctype/email_message/email_message.py:232
 msgid "Failed to destroy email(s)."
-msgstr ""
+msgstr "Nepodařilo se odstranit e-maily."
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:79
 msgid "Failed to destroy push subscription(s)"
-msgstr ""
+msgstr "Nepodařilo se odstranit předplatné(é)"
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:82
 msgid "Failed to destroy push subscription(s)."
-msgstr ""
+msgstr "Nepodařilo se odstranit předplatné."
 
 #: mail/mail/doctype/email_message/email_message.py:254
 msgid "Failed to fetch blob"
-msgstr ""
+msgstr "Nepodařilo se načíst blob"
 
 #: mail/mail/doctype/email_message/email_message.py:257
 msgid "Failed to fetch blob."
-msgstr ""
+msgstr "Nepodařilo se načíst blob."
 
 #: mail/mail/doctype/email_message/email_message.py:1083
 msgid "Failed to fetch changes"
-msgstr ""
+msgstr "Nepodařilo se načíst změny"
 
 #: mail/mail/doctype/email_message/email_message.py:1044
 msgid "Failed to fetch emails"
-msgstr ""
+msgstr "Nepodařilo se načíst e-maily"
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:59
 msgid "Failed to get push subscriptions"
-msgstr ""
+msgstr "Nepodařilo se získat předplatné"
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:62
 msgid "Failed to get push subscriptions."
-msgstr ""
+msgstr "Nepodařilo se získat předplatné."
 
 #: mail/api/jmap.py:34
 msgid "Failed to handle JMAP Push Notification"
-msgstr ""
+msgstr "Nepodařilo se zpracovat JMAP Push oznámení"
 
 #: mail/api/jmap.py:37
 msgid "Failed to handle JMAP Push Notification."
-msgstr ""
+msgstr "Nepodařilo se zpracovat JMAP Push oznámení."
 
 #: mail/utils/__init__.py:123
 msgid "Failed to load content from the compressed file."
-msgstr ""
+msgstr "Nepodařilo se načíst obsah z komprimovaného souboru."
 
 #: mail/mail/doctype/email_message/email_message.py:189
 msgid "Failed to move email(s) to mailbox"
-msgstr ""
+msgstr "Nepodařilo se přesunout email(y) do poštovní schránky"
 
 #: mail/mail/doctype/email_message/email_message.py:192
 msgid "Failed to move email(s) to mailbox."
-msgstr ""
+msgstr "Nepodařilo se přesunout email(y) do poštovní schránky."
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:208
 msgid "Failed to renew JMAP Push Subscription."
-msgstr ""
+msgstr "Nepodařilo se obnovit JMAP Push předplatné."
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:213
 msgid "Failed to renew push subscription"
-msgstr ""
+msgstr "Nepodařilo se obnovit \"push\" předplatné"
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:216
 msgid "Failed to renew push subscription."
-msgstr ""
+msgstr "Nepodařilo se obnovit push předplatné."
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:173
 msgid "Failed to subscribe to JMAP Push Subscription"
-msgstr ""
+msgstr "Nepodařilo se přihlásit k odběru JMAP Push Subscription"
 
 #: mail/mail/doctype/jmap_push_subscription/jmap_push_subscription.py:168
 msgid "Failed to subscribe to JMAP Push Subscription."
-msgstr ""
+msgstr "Nepodařilo se přihlásit k odběru JMAP Push Subscription."
 
 #: mail/mail/doctype/email_message/email_message.py:300
 msgid "Failed to update email(s)"
-msgstr ""
+msgstr "Nezdařilo se aktualizovat e-mail(y)"
 
 #: mail/mail/doctype/email_message/email_message.py:303
 msgid "Failed to update email(s)."
-msgstr ""
+msgstr "Nezdařilo se aktualizovat e-mail(y)."
 
 #: frontend/src/components/Modals/AddDomainModal.vue:92
 msgid "Failed to verify DNS record."
-msgstr ""
+msgstr "Nepodařilo se ověřit DNS záznam."
 
 #. Label of the fetched_after (Float) field in DocType 'Email Message'
 #. Label of the fetched_after (Float) field in DocType 'Incoming Mail'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "Fetched After (Seconds)"
-msgstr ""
+msgstr "Načteno po (sekundy)"
 
 #. Label of the fetched_at (Datetime) field in DocType 'Incoming Mail'
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "Fetched At"
-msgstr ""
+msgstr "Načteno v"
 
 #. Description of the 'Fetched After (Seconds)' (Float) field in DocType
 #. 'Incoming Mail'
@@ -2302,34 +2302,34 @@ msgstr ""
 
 #: mail/mail/doctype/mail_queue/mail_queue.py:66
 msgid "File <code>{0}</code> not found."
-msgstr ""
+msgstr "Soubor <code>{0}</code> nebyl nalezen."
 
 #. Label of the filename (Data) field in DocType 'Email Message Part'
 #: mail/mail/doctype/email_message_part/email_message_part.json
 msgid "File Name"
-msgstr ""
+msgstr "Název souboru"
 
 #. Label of the file_url (Attach) field in DocType 'Email Message Part'
 #: mail/mail/doctype/email_message_part/email_message_part.json
 msgid "File URL"
-msgstr ""
+msgstr "URL souboru"
 
 #. Description of the 'Private Key Path' (Data) field in DocType 'Mail Server
 #. TLS Certificate'
 #: mail/mail/doctype/mail_server_tls_certificate/mail_server_tls_certificate.json
 msgid "File path to the Private Key."
-msgstr ""
+msgstr "Cesta k soukromému klíči."
 
 #. Description of the 'Certificate Path' (Data) field in DocType 'Mail Server
 #. TLS Certificate'
 #: mail/mail/doctype/mail_server_tls_certificate/mail_server_tls_certificate.json
 msgid "File path to the TLS certificate."
-msgstr ""
+msgstr "Cesta k TLS certifikátu."
 
 #. Option for the 'Type' (Select) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "Filesystem"
-msgstr ""
+msgstr "Souborovýsystém"
 
 #: frontend/src/components/Modals/AddMemberModal.vue:61
 #: frontend/src/components/Settings/ProfileSettings.vue:17
@@ -2337,12 +2337,12 @@ msgstr ""
 #: frontend/src/pages/SignupView.vue:64
 #: mail/mail/doctype/mail_account_request/mail_account_request.js:100
 msgid "First Name"
-msgstr ""
+msgstr "Jméno"
 
 #. Label of the flagged (Check) field in DocType 'Email Message'
 #: mail/mail/doctype/email_message/email_message.json
 msgid "Flagged"
-msgstr ""
+msgstr "Označeno"
 
 #. Label of the folder (Data) field in DocType 'Email Message'
 #. Label of the folder (Select) field in DocType 'Incoming Mail'
@@ -2351,56 +2351,56 @@ msgstr ""
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.json
 msgid "Folder"
-msgstr ""
+msgstr "Složka"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.js:32
 msgid "Force Accept"
-msgstr ""
+msgstr "Vynutit přijetí"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.js:111
 msgid "Force Accepting..."
-msgstr ""
+msgstr "Vynucování přijetí..."
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.js:58
 msgid "Force Transfer to Server"
-msgstr ""
+msgstr "Vnutit přenos na seerver"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.js:153
 msgid "Force Transferring..."
-msgstr ""
+msgstr "Vynucování přenosu..."
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.js:35
 msgid "Force Verify and Create Account"
-msgstr ""
+msgstr "Vynutit ověření a vytvoření účtu"
 
 #: frontend/src/pages/LoginView.vue:21
 msgid "Forgot password?"
-msgstr ""
+msgstr "Zapomenuté heslo?"
 
 #: frontend/src/components/MailThread.vue:355
 #: mail/mail/doctype/email_message/email_message.js:113
 msgid "Forward"
-msgstr ""
+msgstr "Přeposlat"
 
 #. Label of the forwarded (Check) field in DocType 'Email Message'
 #: mail/mail/doctype/email_message/email_message.json
 msgid "Forwarded"
-msgstr ""
+msgstr "Přeposláno"
 
 #. Label of the forwarded_from_id (Data) field in DocType 'Mail Queue'
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "Forwarded From (Email ID)"
-msgstr ""
+msgstr "Přeposláno z (Email ID)"
 
 #. Option for the 'Type' (Select) field in DocType 'Mail Server Store'
 #: mail/mail/doctype/mail_server_store/mail_server_store.json
 msgid "FoundationDB"
-msgstr ""
+msgstr "FoundationDB"
 
 #. Label of the account_purge_frequency (Data) field in DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Frequency (Cron)"
-msgstr ""
+msgstr "Frekvence (Cron)"
 
 #. Label of the from_ (Data) field in DocType 'Outgoing Mail'
 #: frontend/src/components/SendMail.vue:22 mail/api/mail.py:498
@@ -2410,7 +2410,7 @@ msgstr ""
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.js:78
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.py:105
 msgid "From"
-msgstr ""
+msgstr "Od"
 
 #. Label of the from_date (Datetime) field in DocType 'DMARC Report'
 #: mail/mail/doctype/dmarc_report/dmarc_report.json
@@ -2419,101 +2419,101 @@ msgstr ""
 #: mail/mail/report/outbound_delay/outbound_delay.js:8
 #: mail/mail/report/outgoing_mail_summary/outgoing_mail_summary.js:8
 msgid "From Date"
-msgstr ""
+msgstr "Od data"
 
 #. Label of the from_email (Data) field in DocType 'Email Message'
 #. Label of the from_email (Data) field in DocType 'Mail Queue'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "From Email"
-msgstr ""
+msgstr "Z e-mailu"
 
 #. Label of the from_host (Data) field in DocType 'Email Message'
 #. Label of the from_host (Data) field in DocType 'Incoming Mail'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "From Host"
-msgstr ""
+msgstr "Od hostitele"
 
 #. Label of the from_ip (Data) field in DocType 'Email Message'
 #. Label of the from_ip (Data) field in DocType 'Incoming Mail'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/incoming_mail/incoming_mail.json
 msgid "From IP"
-msgstr ""
+msgstr "Z IP"
 
 #. Label of the from_name (Data) field in DocType 'Email Message'
 #. Label of the from_name (Data) field in DocType 'Mail Queue'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "From Name"
-msgstr ""
+msgstr "Od jména"
 
 #: frontend/src/components/MailDetailsPopover.vue:8
 msgid "From:"
-msgstr ""
+msgstr "Od:"
 
 #. Label of the full_text_index_storage_section (Section Break) field in
 #. DocType 'Mail Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 #: mail/mail/doctype/mail_cluster/mail_cluster.py:341
 msgid "Full Text Index Storage"
-msgstr ""
+msgstr "Úložiště Full Text Index"
 
 #: frontend/src/pages/MailFolderView.vue:44
 msgid "Full Width"
-msgstr ""
+msgstr "Plná šířka"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:415
 msgid "Future date is not allowed."
-msgstr ""
+msgstr "Budoucí datum není povoleno."
 
 #. Option for the 'Method' (Select) field in DocType 'Mail Backend Request'
 #: mail/mail/doctype/mail_backend_request/mail_backend_request.json
 msgid "GET"
-msgstr ""
+msgstr "GET"
 
 #: mail/mail/doctype/mail_cluster/mail_cluster.js:127
 msgid "Generate API Key"
-msgstr ""
+msgstr "Generovat API klíč"
 
 #: mail/mail/doctype/mail_server/mail_server.js:27
 msgid "Generate Config"
-msgstr ""
+msgstr "Generovat nastavení"
 
 #: mail/mail/doctype/mail_cluster/mail_cluster.js:165
 msgid "Generating API Key..."
-msgstr ""
+msgstr "Generování API klíče..."
 
 #: mail/mail/doctype/mail_server/mail_server.js:50
 msgid "Generating Config..."
-msgstr ""
+msgstr "Generování konfigurace..."
 
 #. Label of the jmap_protocol_get_max_objects (Int) field in DocType 'Mail
 #. Cluster'
 #: mail/mail/doctype/mail_cluster/mail_cluster.json
 msgid "Get"
-msgstr ""
+msgstr "Získat"
 
 #: mail/mail/doctype/mail_cluster/mail_cluster.js:151
 msgid "Getting Password..."
-msgstr ""
+msgstr "Získávám heslo..."
 
 #: mail/mail/doctype/message_queue/message_queue_list.js:28
 msgid "Getting Queue Status..."
-msgstr ""
+msgstr "Získávám status fronty..."
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
 #: mail/mail/doctype/mail_settings/mail_settings.json
 msgid "GoDaddy"
-msgstr ""
+msgstr "GoDaddy"
 
 #: frontend/src/components/Modals/AddAliasModal.vue:44
 #: frontend/src/components/Modals/EditAliasModal.vue:28
 #: frontend/src/pages/dashboard/MailAliasesView.vue:180
 #: frontend/src/pages/dashboard/MailGroupView.vue:233
 msgid "Group"
-msgstr ""
+msgstr "Skupina"
 
 #. Group in Mail Account's connections
 #. Group in Mail Domain's connections
@@ -2522,50 +2522,50 @@ msgstr ""
 #: mail/mail/doctype/mail_domain/mail_domain.json
 #: mail/mail/doctype/mail_tenant/mail_tenant.json
 msgid "Group & Alias"
-msgstr ""
+msgstr "Skupina & Alias"
 
 #: frontend/src/pages/dashboard/MailGroupsView.vue:145
 msgid "Group Email"
-msgstr ""
+msgstr "Skupinový e-mail"
 
 #: frontend/src/components/Modals/AddGroupModal.vue:72
 msgid "Group created successfully"
-msgstr ""
+msgstr "Skupina úspěšně vytvořena"
 
 #: mail/mail/doctype/mail_group/mail_group.py:75
 msgid "Group has members. Please remove them first."
-msgstr ""
+msgstr "Skupina má členy. Nejprve je odstraňte."
 
 #: frontend/src/pages/dashboard/MailGroupView.vue:143
 msgid "Group settings saved successfully"
-msgstr ""
+msgstr "Nastavení skupiny úspěšně uloženo"
 
 #: frontend/src/pages/dashboard/MailGroupView.vue:199
 #: frontend/src/pages/dashboard/MailGroupsView.vue:3
 msgid "Groups"
-msgstr ""
+msgstr "Skupiny"
 
 #: frontend/src/pages/dashboard/MailGroupsView.vue:123
 msgid "Groups deleted successfully."
-msgstr ""
+msgstr "Skupiny úspěšně odstraněny."
 
 #. Label of the eab_hmac_key (Password) field in DocType 'Mail Server ACME
 #. Provider'
 #: mail/mail/doctype/mail_server_acme_provider/mail_server_acme_provider.json
 msgid "HMAC Key"
-msgstr ""
+msgstr "HMAC Klíč"
 
 #. Label of the html_body (Code) field in DocType 'Email Message'
 #. Label of the html_body (Code) field in DocType 'Mail Queue'
 #: mail/mail/doctype/email_message/email_message.json
 #: mail/mail/doctype/mail_queue/mail_queue.json
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #. Label of the _html_body (Table) field in DocType 'Email Message'
 #: mail/mail/doctype/email_message/email_message.json
 msgid "HTML Body"
-msgstr ""
+msgstr "HTML Body"
 
 #. Option for the 'Protocol' (Select) field in DocType 'Mail Server Listener'
 #: mail/mail/doctype/mail_server_listener/mail_server_listener.json
