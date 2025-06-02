@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappecz\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-05-28 11:53+0553\n"
-"PO-Revision-Date: 2025-05-30 13:22\n"
+"PO-Revision-Date: 2025-06-02 16:13\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr "+{0} více"
 
 #: mail/mail/doctype/spam_check_log/spam_check_log.py:161
 msgid "1. Ensure the correct IP address is allowed to connect to SpamAssassin."
-msgstr "1. Ujistěte se, že správná IP adresa má povolení připojit se k SpamAssassin."
+msgstr "1. Ujistěte se, že je IP povoleno připojit se k SpamAssassin."
 
 #: mail/mail/doctype/spam_check_log/spam_check_log.py:162
 msgid "2. Verify that the SpamAssassin service is running and accepting connections on port {0}."
@@ -1191,7 +1191,7 @@ msgstr "Vlastní hlavičky"
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:311
 msgid "Custom Headers limit exceeded ({0}). Maximum {1} custom header(s) allowed."
-msgstr "Limit vlastních hlaviček překročen ({0}). Maximální povolený {1} vlastní hlavička."
+msgstr "Limit vlastních hlaviček překročen ({0}). Maximum povolených {1} vlastních hlaviček."
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:322
 msgid "Custom header {0} is not allowed."
@@ -2800,7 +2800,7 @@ msgstr ""
 
 #: mail/mail/doctype/outgoing_mail/outgoing_mail.py:247
 msgid "In Reply To Mail Name is required."
-msgstr ""
+msgstr "Je nutné vyplnit jméno odpovědi na e-mail."
 
 #. Label of the in_reply_to_mail_type (Select) field in DocType 'Incoming Mail'
 #. Label of the in_reply_to_mail_type (Select) field in DocType 'Outgoing Mail'
